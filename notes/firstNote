@@ -1,0 +1,7 @@
+1.) we can create react project by using create react app method ->
+npx create-react-app projectName
+
+2.) we can create react project by using react vite method ->
+npm create vite@latest
+
+clear
