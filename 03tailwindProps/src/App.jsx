@@ -13,13 +13,20 @@ function App() {
   name : 'Ali Hasan',
   profile: 'A BCA Student pursuing in 2023'
    }
+
+  let ohterStudent = {
+    name : 'Raza Abbas',
+  profile: 'A BBA Student pursuing in 2023'
+  }
   return (
     <>
       <h1 className="text-3xl font-bold underline mb-4">
         A Project using Tailwind & Props
       </h1>
       <Card obj = {mentorObj}></Card>
-      <Card obj = {studentObj}></Card>
+      <Card obj= {studentObj}></Card>
+      <Card obj={ohterStudent}></Card>
+      
       
     </>
   )

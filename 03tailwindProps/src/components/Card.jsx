@@ -3,7 +3,7 @@ import React from "react"
 function Card({obj}) {
     // console.log('props', props);
     // console.log('props inner', props.obj);
-    console.log('obj ');
+    // console.log(Object.keys(obj));
     
     
     return(
