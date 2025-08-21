@@ -4,9 +4,12 @@ import Login from './components/Login'
 import Profile from './components/Profile'
 import UserContextProvider from './context/UserContextProvider'
 import ClearBtn from './components/ClearBtn'
+import { useContext } from 'react'
+import UserContext from './context/userContext'
 
 function App() {
-  
+   
+  // const {user} = useContext(UserContext);
 
   return (
     <UserContextProvider>
