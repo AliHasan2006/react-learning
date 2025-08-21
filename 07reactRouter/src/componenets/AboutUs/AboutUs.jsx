@@ -1,14 +1,16 @@
-import React from "react";
+import React from 'react'
 
 function AboutUs() {
   return (
-    <section className="p-6">
-      <h2 className="text-2xl font-bold text-blue-700 mb-4">About Us</h2>
-      <p className="text-gray-700 text-lg">
-        Zennex Solution is a leading provider of web development and digital services. Our team is passionate about turning ideas into real-world applications.
+    <div>
+      <h1>This Course name is Chai aur react</h1>
+      <p>
+        This course is basically bbased on react concepts, states and hooks
       </p>
-    </section>
-  );
+      <h2>The mentor name is Hitesh Sir</h2>
+      <h2>The student name is Ali Hasan</h2>
+    </div>
+  )
 }
 
-export default AboutUs;
+export default AboutUs
