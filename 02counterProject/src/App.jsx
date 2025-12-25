@@ -26,7 +26,7 @@ function App() {
       setCounter(countValue + 1) 
 
        the value of counter will be increse by one only
-       means jb hum stcounter ko baar baar call krte hain to use state ek bundle fuccntions ko leta hai aur ui update krta hai isliye coutner ki value 15 hai to is code ke baad bh sirf ek hi badhegi 
+       means jb hum stcounter ko baar baar call krte hain to use state ek bundle fucntions ko leta hai aur ui update krta hai isliye coutner ki value 15 hai to is code ke baad bh sirf ek hi badhegi 
        
        agr hm chahte hain is tarah counter value direct 15 se 19 ho jaye to setcounter ek call back leta hai jo counter ke previous value ko target krta hai jisse ye ui upadetion ho jata hai 
         setCounter((prevCounter) => prevCounter + 1)
