@@ -16,7 +16,7 @@ const CATEGORIES = [
   },
   { 
     id: 'winter', 
-    name: "Winter Collection", 
+    name: "Winter Collections", 
     desc: "Luxury Overcoats & Sweaters", 
     img: "https://i.pinimg.com/736x/e4/77/25/e477255b0ab694df483c933af0fedba6.jpg" 
   },
